@@ -1,0 +1,10 @@
+@use '../abstracts/mixins' as *;
+
+
+header{
+    height: 5rem;
+    margin: 1rem 0;
+    .header-btn{
+        @include display-flex(row, right, center);
+    }
+}
